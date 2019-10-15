@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_hash)
       holiday.each{|holiday,supplies|
         supplies.each{|supply|
         if supply=="BBQ"
-          bbq_holidays<< holiday
+          bbq_holidays<< (holiday)
         end
         }
       }
